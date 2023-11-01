@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+.free p .icon {
+  padding: 10px;
+  width: 100%;
+  background: #000000;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-header {
+  padding: 10px 20px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-header .container .logo {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.main-header .container .search-box input {
+  outline: none;
+  border: 1px solid;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 18px;
+
+  margin-right: 2px;
+}
+.main-header .container .search-box button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 11px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.icon {
+  font-size: 30px;
+  display: flex;
+  padding-top: 10px;
+  column-gap: 10px;
+}
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+.linkactiv {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
+}
+
+.header {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.nav-list {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.auth {
+  margin-top: 2px;
+  font-size: 27px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main-header {
+    padding: 10px 5px;
+  }
+  .main-header .container .search-box input {
+    display: none;
+  }
+  .main-header .container .search-box button {
+    display: none;
+  }
+  .nav-list {
+    margin-left: 0px;
+  }
+}

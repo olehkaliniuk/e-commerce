@@ -1,0 +1,19 @@
+.abouttiltle {
+  margin: 20px;
+  font-size: 30px;
+}
+.abouttext {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 400;
+
+  color: #676666;
+}
+.abouttextbig {
+  color: #000;
+  font-weight: 500;
+}
+.mail {
+  color: #000;
+  font-weight: 500;
+}
